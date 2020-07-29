@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Another Bone</name>
+	<packageId>supercollidingsuperbutton.anotherbone</packageId>
+	<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
+   <modDependencies>
+		<li>
+			<displayName>Rim of Madness - Bones</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1180573408</steamWorkshopUrl>
+			<packageId>sihv.rombones</packageId>
+		</li>
+	</modDependencies>
+	<author>Super-Colliding Super Button</author>
+	<description>Replacing Bone Visuals
+	</description>
+</ModMetaData>
