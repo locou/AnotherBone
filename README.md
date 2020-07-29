@@ -6,9 +6,13 @@ Rim of Madness - Bones
 Sprinkle some fairy dust onto some of the gfx:
 
 Enchants the following *Things*:
+
 Bones
+
 Bonecrete
+
 Calcium Polymer
+
 Bone China
 
 ![Item Image](About/Preview_Set.png?raw=true "Preview_Set")
@@ -20,9 +24,15 @@ Renames "Bone Ash" in some instances into "Bone China" since both refer to the s
 
 
 TODO:
+
 Enchant Bone Marrow
+
 Enchant Bone Chair
+
 Enchant Bone Throne
+
 Enchant Bone Candle
+
 Enchant Floors
+
 Create custom wall textures for each material
