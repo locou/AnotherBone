@@ -90,28 +90,6 @@
 			<li>Rim of Madness - Bones</li>
      	</mods>
 		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName = "BoneChina"]/label</xpath>
-			<value>
-				<label>Bone China</label>
-			</value>
-		</match>
-	</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Rim of Madness - Bones</li>
-     	</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName = "BoneChina"]/description</xpath>
-			<value>
-				<description>Bone China made from bones burned at extremely high temperatures</description>
-			</value>
-		</match>
-	</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Rim of Madness - Bones</li>
-     	</mods>
-		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName = "BoneChina"]/graphicData/texPath</xpath>
 			<value>
 				<texPath>Things/Item/Resource/BoneChina</texPath>
@@ -138,6 +116,49 @@
 		</match>
     </Operation>
 
-
-
+<!-- rename bone ash -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "BoneChina"]/label</xpath>
+			<value>
+				<label>Bone China</label>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "BoneChina"]/description</xpath>
+			<value>
+				<description>Bone china made from bones burned at extremely high temperatures</description>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "MakeBoneChina"]/label</xpath>
+			<value>
+				<label>Make bone china</label>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "MakeBoneChina"]/jobString</xpath>
+			<value>
+				<jobString>Making bone china.</jobString>
+			</value>
+		</match>
+	</Operation>
 </Patch>

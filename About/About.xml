@@ -14,6 +14,20 @@
 		</li>
 	</modDependencies>
 	<author>Super-Colliding Super Button</author>
-	<description>Replacing Bone Visuals
+	<description>Rim of Madness - Bones/
+===Enchantment===
+
+Sprinkle some fairy dust onto some of the gfx
+
+Enchants the following *Things*:
+* Bones  
+* Bonecrete  
+* Calcium Polymer  
+* Bone China  
+
+For each material the buildings and items have a matching color.
+
+Misc stuff:
+* Renames "Bone Ash" in some instances into "Bone China" since both refer to the same material.
 	</description>
 </ModMetaData>
