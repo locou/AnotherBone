@@ -84,6 +84,18 @@
 			</value>
 		</match>
     </Operation>    
+    <!-- Bone Marrow -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+     	</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ROMB_Marrow"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Things/Item/Resource/BoneMarrow</texPath>
+			</value>
+		</match>
+	</Operation>    
     <!-- BoneChina -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -115,8 +127,7 @@
 			</value>
 		</match>
     </Operation>
-
-<!-- rename bone ash -->
+	<!-- rename bone ash -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Rim of Madness - Bones</li>
