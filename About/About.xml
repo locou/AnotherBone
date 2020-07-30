@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Another Bone</name>
+	<name>Rim of Madness - Bones Enchantment</name>
 	<packageId>supercollidingsuperbutton.anotherbone</packageId>
 	<supportedVersions>
       <li>1.0</li>
@@ -23,7 +23,8 @@ Enchants the following *Things*:
 * Bones  
 * Bonecrete  
 * Calcium Polymer  
-* Bone China  
+* Bone China
+* Bone Marrow
 
 For each material the buildings and items have a matching color.
 
